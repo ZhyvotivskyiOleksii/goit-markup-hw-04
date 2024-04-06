@@ -25,9 +25,10 @@ img{
     padding-top: 120px;
 }
 .top-section{
-    background-image: url('/images/people-office.png');
-    background-size: 100%;
     background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(/images/people-office.png);
 }
 
 .container{
@@ -366,8 +367,9 @@ border-right: 1px solid #E7E9FC;
 
 .footer{
     background-color: #2e2f42;
-    padding: 100px 0 100px 0;
+    padding: 100px 0 100px 0;  
 }
+
 .txt-footer{
     line-height: 1.5;
     color: #F4F4FD;
@@ -382,4 +384,48 @@ border-right: 1px solid #E7E9FC;
 .logo-brand-footer{
     margin-bottom: 16px;
     display: inline-block;
+}
+
+.icon-footer{
+    fill: #ffffff;
+}
+
+.icon-link-footer{
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-link-footer:hover{
+    background-color: #31D0AA;
+}
+
+.icon-list-footer{
+    display: flex;
+    gap: 16px;
+}
+.footer-box{
+    display: flex;
+    align-items: baseline;
+
+}
+
+.text-footer-media{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    margin-bottom: 16px;
+}
+
+.first-footer{
+    margin-right: 120px;
 }
