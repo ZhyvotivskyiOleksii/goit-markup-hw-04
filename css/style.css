@@ -93,16 +93,7 @@ ul, ol {
     color: #404bbf;
 }
 
-.current::after {
-    content: '';
-    background-color: #404bbf;
-    border-radius: 2px;
-    height: 4px;
-    width: 100%;
-    position: absolute;
-    left: 0;
-    bottom: -1px;
-  }
+
 
 .menu-address{
     color: #434455;
