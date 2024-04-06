@@ -87,13 +87,21 @@ ul, ol {
 .nav-menu-item:focus{
     color: #404bbf;
 }
-
-.current{
+.cover{
     position: relative;
     color: #404bbf;
 }
 
-
+.cover::after{
+    content: '';
+    width: 100%;
+    position: absolute;
+    left: 0;
+    bottom: -1px;
+    height: 4px;
+    background-color: #404bbf;
+    border-radius: 2px;
+}
 
 .menu-address{
     color: #434455;
@@ -255,9 +263,11 @@ address{
     display: flex;
     margin-left: 16px;
     justify-content: center;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); 
 }
+
+
 
 .icon-list {
     display: flex;
@@ -287,7 +297,7 @@ address{
 .icon-link:hover,
 .icon-link:focus {
   background-color: #404bbf;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
+background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1),
     color 250ms cubic-bezier(0.4, 0, 0.2, 1),
     box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
