@@ -24,6 +24,11 @@ img{
     padding-bottom: 120px;
     padding-top: 120px;
 }
+.top-section{
+    background-image: url('/images/people-office.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
 
 .container{
     width: 1158px;
@@ -193,6 +198,18 @@ address{
     width: calc((100% - 72px) /4); 
 }
 
+.icon-advantages{ 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #8E8F99;
+    border-radius: 4px;
+    width: 264px;
+    height: 112px;
+    background-color: #F4F4FD;
+    margin-bottom: 8px;
+}
+
 
 .advantages{
     font-weight: 500;
@@ -210,6 +227,10 @@ address{
     letter-spacing: 0.02em;
 }
 
+
+
+
+
 .team-box{
     background-color: #F4F4FD;
     
@@ -222,7 +243,30 @@ address{
     
 }
 
+.icon-list {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+}
+.icon-team-media {
+    width: 40px;
+    height: 40px;
+}
+.icon-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4D5AE5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.icon-team {
+    fill: #ffffff;
+}
 
 
 
