@@ -1,0 +1,341 @@
+body {
+    font-family: "Roboto", sans-serif;
+    color: #434455; 
+    background-color: #FFFFFF;
+}
+
+h1,h2,h3,h4,h5,h6,p{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+ul{
+    margin: 0;
+    padding-left: 0;
+}
+img{
+    display: block;
+}
+
+.visually-hidden { position: absolute; width: 1px; height: 1px; margin: -1px; border: 0; padding: 0; white-space: nowrap; clip-path: inset(100%); clip: rect(0 0 0 0); overflow: hidden; }
+
+
+
+.section{
+    padding-bottom: 120px;
+    padding-top: 120px;
+}
+
+.container{
+    width: 1158px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.header{
+    border-bottom: 1px solid #e7e9fc
+}
+
+.header nav {
+    display: flex;  
+    align-items: center
+}
+
+.header nav ul {
+    display: flex;
+}
+
+.header .address ul {
+    display: flex; 
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+a {
+    text-decoration: none;
+}
+ul, ol {
+    list-style: none;
+}
+
+.nav-menu-item{
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    padding: 24px 0;
+    display: block;
+}
+
+.nav-menu{
+    gap: 40px;
+}
+
+.nav-menu:hover{
+    color: #404bbf;
+
+}
+
+.nav-menu:focus{
+    color: #404bbf;
+}
+
+.menu-address{
+    color: #434455;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.menu-address:hover{
+    color: #404bbf;
+
+}
+
+.menu-address:focus{
+    color: #404bbf;
+}
+
+.address-list{
+    gap: 40px;
+}
+.logo-brand {
+    font-family: "Raleway", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    margin-right: 76px
+}
+
+.logo-span {
+    color: #2e2f42;
+}
+
+address{
+    font-style: normal;
+    color: #434455;
+}
+
+.top-section{
+    background-color: #2e2f42;
+    text-align: center;
+    padding: 188px 0;
+}
+
+
+
+
+.top-title{
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    letter-spacing: 0.02em;
+    color: #FFFFFF;
+    max-width: 496px;
+    margin: 0 auto;
+    margin-bottom: 48px;
+}
+
+
+
+.order-button{
+    background-color: #4D5AE5;
+    font-weight: 500;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
+    color: #FFFFFF;
+    cursor: pointer;
+    height: 56px;
+    min-width: 169px;
+    border: none;
+    border-radius: 4px;
+    display: block;
+    margin: 0 auto;
+}
+
+.order-button:hover{
+    background-color: #404BBF;
+}
+
+.order-button:focus{
+    background-color: #404BBF;
+}
+
+
+
+
+
+.container.adv-box {
+    max-width: 1158px; 
+    margin: 0 auto; 
+    padding: 0 15px;
+}
+
+.advantges-list{
+    display: flex; 
+    gap: 24px;
+    padding: 0;
+    margin: 0;
+}
+
+.adv-box .advantages {
+    text-align: left; 
+    margin-bottom: 8px;
+}
+
+.advantages-item{
+    width: calc((100% - 72px) /4); 
+}
+
+
+.advantages{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+}
+
+
+
+
+.title-advantages{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+.team-box{
+    background-color: #F4F4FD;
+    
+
+}
+
+.team-list{
+    gap: 24px;
+    display: flex; 
+    
+}
+
+
+
+
+
+
+  .team-card img {
+    width: 100%; 
+    height: auto; 
+  }
+
+
+
+.team-card{
+    background-color: #FFFFFF;
+    flex-basis: calc((100% - 72px) / 4);
+    border-radius: 0 0 4px 4px;
+    background-color: #FFFFFF;
+}
+.team-name{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+    text-align: center;
+    
+}
+
+.team-name-title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;
+    margin-bottom: 8px;
+}
+
+.porfolio-wrap{
+    padding: 32px 16px;
+    border-bottom: 1px solid #E7E9FC;
+border-left: 1px solid #E7E9FC;
+border-right: 1px solid #E7E9FC;
+}
+
+
+.tim-nameinfo{
+    padding: 32px 0;
+
+}
+
+.portfolio-box h2 {
+    text-align: center; 
+    margin-bottom: 72px;
+}
+
+.team-list .title-advantages{
+    text-align: center;
+}
+
+.portfolio-list {
+   display: flex; 
+    flex-wrap: wrap; 
+    gap: 48px 24px; 
+}
+
+.portfolio-item{
+    width: calc((100% - 48px) / 3); 
+}
+
+
+.portfolio-box img {
+    width: 100%; 
+    height: auto; 
+}
+
+
+
+.title{
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2e2f42;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 72px;
+    
+    
+}
+
+.title-portfolio{
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+}
+
+
+.footer{
+    background-color: #2e2f42;
+    padding: 100px 0 100px 0;
+}
+.txt-footer{
+    line-height: 1.5;
+    color: #F4F4FD;
+    letter-spacing: 0.02em;
+    max-width: 264px;
+}
+
+.logo-footer{
+    color: #f4f4fd;
+}
+
+.logo-brand-footer{
+    margin-bottom: 16px;
+    display: inline-block;
+}
